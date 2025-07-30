@@ -81,6 +81,61 @@ justify-content: center;
     cursor:pointer;
     margin:20px;
 }
+@media (max-width:1320px) {
+  .amd-item img {
+    height:150px;
+    width:150px
+  }
+  .amd {
+    row-gap: 2rem;
+  }
+  .amd-item{
+    padding:50px;
+    }
+}
+@media (max-width:1150px) {
+  .amd-item img {
+    height:125px;
+    width:125px
+  }
+  .amd-item{
+    margin-right: 115px;
+    margin-left: 115px;
+  }
+}
+@media (max-width:970px) {
+  .amd-item img {
+    height:125px;
+    width:125px
+  }
+  .amd-item{
+    margin-right: 75px;
+    margin-left: 75px;
+  }
+}
+@media(max-width:750px) {
+  .amd-container{
+    gap:8px
+  }
+  .amd-item img {
+    height:125px;
+    width:125px
+  }
+  .amd-item{
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+}
+@media (max-width:600px) {
+    .amd-container {
+        column-gap: 50px;
+        row-gap: 24px;
+    }
+    .amd-container img {
+        height:150px;
+        width: 150px;
+    }
+}
 .about-amd {
   display:flex;
   justify-content: space-around;
